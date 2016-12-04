@@ -4,8 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component'
 import { HumanComponent} from './human.component'
 
+import { HttpModule } from '@angular/http';   // for http service
+import { FormsModule } from '@angular/forms'; 
+
+
 @NgModule({
-    imports: [BrowserModule],
+    imports: [BrowserModule, HttpModule, FormsModule],
     declarations: [AppComponent, HumanComponent],
     bootstrap: [AppComponent],
 

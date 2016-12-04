@@ -17,11 +17,11 @@ var apiRouter = require('./routes/api');
 var app = express();
 
 // View Engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '/client/views'));
 app.set('views engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 // Set Static Folder
-app.use(express.static(path.join(__dirname, 'clinet')));
+app.use(express.static(path.join(__dirname, '/client')));
 
 // Add Middlewares
 // Body Parser Middleware

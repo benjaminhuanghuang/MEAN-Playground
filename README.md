@@ -1,4 +1,4 @@
-# python_designpattern
+# MEAN Playground
 
 
 Reference:
@@ -6,7 +6,7 @@ Reference:
     github https://github.com/andersontr15/Angular2MEANStack
 
 Step1:
-    npm init
+    npm init              # create package.json
 
 Step2:
     npm install express body-parser ejs mongojs --save

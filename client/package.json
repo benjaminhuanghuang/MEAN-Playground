@@ -5,6 +5,12 @@
     "start": "npm run lite",
     "lite": "lite-server"
   },
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
   "license": "MIT",
   "dependencies": {
     "@angular/common": "~2.2.0",

@@ -5,7 +5,7 @@ To use TypeScript
     npm install -g lite-server
     npm install -g typescript
 
-run npm run-script under /client, the script in /client/package.js will compile ts to js
+run "npm run start" under /client, the script "start" in /client/package.js will compile ts to js
 
 Reference:
     MEAN App From Scratch - MongoDB, Express, Angular 2 & NodeJS

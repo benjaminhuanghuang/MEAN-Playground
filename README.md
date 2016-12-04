@@ -3,7 +3,7 @@
 
 Reference:
     MEAN App From Scratch - MongoDB, Express, Angular 2 & NodeJS
-
+    github https://github.com/andersontr15/Angular2MEANStack
 
 Step1:
     npm init
@@ -17,7 +17,7 @@ Step3:
 Step4:
     node server
     npm install -g nodemon   # avoid restart server
-    nodemon
+    nodemon                  # use modemon to update server
 
 Step5:
     create db on mlab

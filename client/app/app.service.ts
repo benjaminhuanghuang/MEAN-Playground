@@ -13,9 +13,12 @@ import 'rxjs/add/operator/map';
      }
 
      addHuman(human) {
+        console.log('In human service');
+        console.log(human);
         var headers = new Headers();
         headers.append('Content-Type', 'application/json');
-        return this.http.post("/api/human", JSON.stringify(human), { headers: headers }) .map(response => response.json());
+        return this.http.post("/api/human", JSON.stringify(human), { headers: headers }) 
+                    .map(response => response.json());
      }
 
      viewHuman(id) {
